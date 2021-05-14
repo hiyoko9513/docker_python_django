@@ -1,3 +1,15 @@
+# system file
 .idea
-hiyoko/*
 .DS_Store
+.vscode
+
+# hiyoko
+hiyoko/*
+!hiyoko/index.php
+
+#python
+infra/python/requirements.txt
+# infra
+infra/.env
+# mysql
+infra/mysql/data/*
